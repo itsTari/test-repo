@@ -1,12 +1,12 @@
 import React,{useState} from 'react'
 // import ReactDOM from 'react-dom'
 import { Canvas } from '@react-three/fiber'
-import Sphere from './components/FirstComp'
-import Light from './components/SecondComp'
-import GroundPlane from './components/ThirdComp'
-import BackDrop from './components/FourthComp'
-import FillLight from './components/FifthComp'
-import RimLight from './components/SixthComp'
+import Sphere from './components/Sphere'
+import Light from './components/Light'
+import GroundPlane from './components/GroundPlane'
+import BackDrop from './components/BackDrop'
+import FillLight from './components/FillLight'
+import RimLight from './components/RimLight'
 
 const App = () => {
   const [lightColor, setLightColor] = useState()
